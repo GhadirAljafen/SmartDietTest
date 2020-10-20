@@ -1,17 +1,6 @@
-import os
-import webbrowser
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-from wordcloud import WordCloud, STOPWORDS
-# Data Preparation
-# Reading ratings file
-# Ignore the timestamp column
-
-# Reading users file
 patients = pd.read_csv('patientsCSV.csv', sep=',', encoding='latin-1',
                     usecols=['Id', 'Diet'])
-# Reading movies file
 food = pd.read_csv('FoodTest.csv', sep=',', encoding='latin-1',
                      usecols=['FoodId', 'Name', 'Diet'])
 
