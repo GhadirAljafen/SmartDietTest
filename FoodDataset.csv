@@ -1,322 +1,267 @@
-FoodId,Food,Diet,Type,Calories,Serving
-1,Olive,0,0,52,50g
-2,3 Toasts,1,0,390,3 pcs
-3,Bean,2,0,22,70g
-4,Bean + Lemon ,3,0,71,200g
-5,Shakshouka + 1 Low-Fat sliced cheese,4,0,52,50g
-6,Bean + Lemon,5,0,33,80g
-7,Mandi Rice,6,1,550,250g
-8,Bread,7,0,260,100g
-9,Bean + Lemon,8,0,39,100g
-10,Shakshouka + 1 Low-Fat sliced cheese,9,0,52,60g
-11,Bean,10,0,16,50g
-12,Shakshouka + 1 Triangle Cheese,4,0,50,50g
-13,Shakshuka,2|5,0,,60g
-14,Shakshouka + 1 Triangle Cheese,9,0,50,60g
-15,2 Sliced cheese,0|6,0,120,2 pcs
-15,1 Low-Fat sliced cheese,2|5|10,0,52,1 pc
-16,2 Low-Fat sliced cheese,3|8,0,104,2 pcs
-17,Honey,0|3|8|1|6|5|2,0,85,30g
-18,Juice ,2|4|7|9|1,0,80,200ml
-19,Apple juice,5|10,0,98,200ml
-20,Bread,2|5|8,0,130,50g
-21,Omelette ,0|6,0,167,100g
-22,Brown Bread,4|9|10,0,130,50g
-23,Brown Bread,0|6|3,0,260,100g
-24,50g Toast,2|4|9,0,130,50g
-25,1 Boiled Egg + 1 Triangle Cheese,4|9,0,122,45g
-26,Water ,2|8,0,0,250ml
-27,Water ,0|3|5|10|1|9|4|7,0,0,500ml
-28,1 Cup Coffee/Tea,0|1|10|2|6|5|8|3|9|4,0,2,1 pcs
-29,Milk,0|6|5|1,0,110,200ml
-30,Low-Fat Milk,3|4|7|9|10,0,70,200ml
-31,1 Triangle Cheese,4|5|10|2,0,50,1 pcs
-32,2 Triangle Cheese,0|6|1|7,0,100,2 pcs
-33,Dates (4-5 pieces),3|6|,0,120,50g
-34,Green Salad,7,0,28,100g
-35,Green Salad(cucumber + lettuce),4|9,0,43,150g
-36,Halvah,0|6|5,0,154,30g
-37,1 Boiled Egg,12|3|5|8|10,0,72,45g
-38,Jam,0|6|5|2|1,0,90,30g
-39,Strawberry Jam,3|8,0,83,30g
-40,Apricot Jam,3|8,0,72,30g
-41,1 Liquid Cheese,1,0,69,1 pc
-42,2 Liquid Cheese,0,0,138,2 pcs
-43,1 Square Cheese,1|2,0,56,1 pc
-44,2 Square Cheese,0|6,0,112,2 pcs
-45,Humous + Olive oil,7,0,166,110g
-46,2 Boiled Egg,0|6,0,145,90g
-47,1 Boiled Egg + 1 Square Cheese,4,0,128,45g
-48,2 Egg White,7,0,32,
-49,Shakshuka,0|6,0,196,150g
-50,Bean + Lemon + 1 Square Cheese,9,0,105,130g
-51,1 Boiled Egg + 1 Low-Fat sliced cheese,4,0,124,45g
-52,Bean + Lemon + Olive oil,7,0,137,140g
-53,Bean + Lemon + Olive oil,0|6,0,159,210g
-54,Bean + Lemon + 1 Low-Fat sliced cheese,4,0,123,200g
-55,1 Banana,1,0,105,1 pc
-56,White Rice,10,1,258,200g
-57,Mashed Rice,1,1,174,150g
-58,Rice with carrot,10,1,274,200g
-59,Biryani Rice,9,1,180,125g
-60,Biryani Rice,2|7|8,1,216,150g
-61,Biryani Rice,0|3|5,1,288,200g
-62,Biryani Rice,6,1,360,250g
-63,Mandi Rice,4|9,1,275,125g
-64,Mandi Rice,2|7|8,1,330,150g
-65,Mandi Rice,0|3|5,1,440,200g
-66,Egg With Onion,10,0,80,45g
-67,Kabli Rice,4|9,1,286,125g
-68,Kabli Rice,2|7|8,1,343,150g
-69,Kabli Rice,0|3|5,1,457,200g
-70,Kabli Rice,6,1,572,250g
-71,Beans Rice,10,1,328,200g
-72,Rice with vermicelli,4|9,1,450,125g
-73,Rice with vermicelli,2|7|8,1,540,150g
-74,Rice with vermicelli,0|3|5|10,1,720,200g
-75,Rice with vermicelli,6,1,900,250g
-76,Chinese rice with vegetables ,4,1,170,125g
-77,Chinese Rice with vegetables ,0,1,272,200g
-78,Chinese Rice with vegetables ,6,1,340,250g
-79,Sayadiyah Rice,4|9,1,293,125g
-80,Sayadiyah Rice,2|7|8,1,351,150g
-81,Sayadiyah Rice,0|3|5,1,468,200g
-82,Sayadiyah Rice,6,1,586,250g
-83,Bukhari Rice,4|10,1,147,125g
-84,Bukhari Rice,2|7|8,1,176,150g
-85,Bukhari Rice,0|3|5|10,1,235,200g
-86,Bukhari Rice,6,1,294,250g
-87,Garish,5,1,712,200g
-88,Qursan ,9,1,345,125g
-89,Qursan ,2|7|8,1,414,150g
-90,Qursan ,3,1,552,200g
-91,Meat with carrot,10,1,60,60g
-92,Meat kofta,10,1,73,60g
-93,Minced Meat roll ,10|1,1,35,60g
-94,Lamb without a bone,2,1,156,60g
-95,Lamb without a bone,7|8,1,208,80g
-96,Lamb without a bone,0|3|5|4|9,1,260,100g
-97,Lamb without a bone,6,1,520,200g
-98,Lamb with bones ,0|4,1,210,150g
-99,Lamb with bones ,6,1,350,250g
-100,Lamb Moqalqal,0,1,250,100g
-101,Lamb Moqalqal,6,1,500,200g
-102,Chicken without bone,1,1,144,60g
-103,Chicken with carrot,10,1,400,60g
-104,Chicken kofta,5,1,205,100g
-105,Chicken kofta with onions and parsley ,2,1,123,60g
-106,Chicken kofta with onions and parsley ,7|8,1,164,80g
-107,Chicken kofta with onions and parsley ,3,1,205,100g
-108,Chicken kofta with onions and parsley ,9,1,246,120g
-109,Chicken roll,2,1,159,60g
-110,Chicken roll,7|8,1,212,80g
-111,Chicken roll,3|5,1,265,100g
-112,Chicken roll,9,1,318,120g
-113,Minced Chicken roll,10,1,270,60g
-114,Boneless chicken scallop,0,1,98,120g
-115,Boneless chicken scallop,6,1,204,250g
-116,Oven baked chicken ,0|4,1,438,250g
-117,Oven baked chicken ,6,1,876,500g
-118,Fish without bone,1,1,52,60g
-119,Fish,5,1,86,100g
-120,Fish + lemon,4,1,142,180g
-121,Fish kofta,10,1,20,60g
-122,Fish kofta + lemon,2,1,33,90g
-123,Fish kofta + lemon,7|8,1,39,110g
-124,Fish kofta + lemon,3|9,1,46,130g
-125,Fish + Fries + Lemon ,0,1,236,230g
-126,Fish + Fries + Lemon ,6,1,279,280g
-127,Molokhia,2,1,31,75g
-128,Molokhia,0|8|5|7|4|9,1,63,150g
-129,Molokhia,3,1,82,200g
-130,Molokhia,6,1,102,250g
-131,Legume Salad,0|6,1,119,150g
-132,Fattoush Salad,0|6,1,118,150g
-133,Greek Salad,0|6,1,106,150g
-134,Hummus Salad,0|6,1,290,150g
-135,Tabbouleh Salad,0|6,1,90,150g
-136,Green Salad,8|2|3|5|10,1,23,100g
-137,Green Salad,0|6|7|4|9,1,34,150g
-138,Bread,2,1,65,25g
-139,Bread,0,1,130,50g
-140,Bread,6,1,260,100g
-141,Toasts,1,1,130,50g
-142,Fruits,0|8|2|3|6|5|7|4|9|10,1,87,150g
-143,Soup,1,1,187,150g
-144,Lesan Asfour Soup+ Meat,0|6,1,233,170g
-145,Lesan Asfour Soup+ Chicken ,0|6,1,225,170g
-146,Adas soup + Meat ,0|6,1,219,170g
-147,Creamy chicken soup + chicken ,0|6,1,234,170g
-148,Vermicelli soup + Meat,0|6,1,148,170g
-149,Quaker soup + chicken ,0|6,1,561,170g
-150,Shish Tawook,2,1,126,60g
-151,Shish Tawook,7|8,1,168,80g
-152,Shish Tawook,3|5,1,210,100g
-153,Shish Tawook,4|9,1,252,120g
-154,Shish Tawook with mixed pepper,10,1,150,60g
-155,Shish Tawook with mixed pepper,0|6,1,276,120g
-156,Musaqa (eggplant + potato + Pepper),2,1,108,75g
-157,Musaqa (eggplant + potato + Pepper),0|8|5|7|4|9,1,216,150g
-158,Musaqa (eggplant + potato + Pepper),3,1,288,200g
-159,Musaqa (eggplant + potato + Pepper),6,1,360,250g
-160,Marq Zucchini,5,1,22,150g
-161,Potato ,2,1,57,75g
-162,Potato ,8|7|9,1,115,150g
-163,Potato ,3,1,152,200g
-164,Mixed vegetables (Peas + Carrot),2,1,46,75g
-165,Mixed vegetables (Peas + Carrot),8|5|7|9,1,92,150g
-166,Mixed vegetables (Peas + Carrot),3,1,122,200g
-167,Mixed vegetables (Peas + Carrot + Potato) ,0|4,1,132,150g
-168,Mixed vegetables(Peas + Carrot + Potato) ,6,1,220,250g
-169,Mixed vegetables (Peas + Carrot + Pumpkin),2,1,60,75g
-170,Mixed vegetables (Peas + Carrot + Pumpkin),8|7|9,1,120,150g
-171,Mixed vegetables (Peas + Carrot + Pumpkin),3,1,160,200g
-172,Mixed vegetables (Zucchini + Carrot + Pepper ),5,1,54,150g
-173,Mixed vegetables (Zucchini + Bean + Peas),10,1,50,100g
-174,Mixed vegetables (Peas + Carrot + Bean),5,1,60,150g
-175,Mixed vegetables (Potato + Pumpkin),0|4,1,94,150g
-176,Mixed vegetables (Potato + Pumpkin),6,1,156,250g
-177,Mixed vegetables with sauce ,0|4,1,154,150g
-178,Mixed vegetables with sauce ,6,1,256,250g
-179,Green beans,2,1,18,75g
-180,Green beans,10,1,24,100g
-181,Green beans,0|8|5|7|4|9,1,36,150g
-182,Green beans,3,1,48,200g
-183,Green beans,6,1,60,250g
-184,Zucchini,10,1,14,100g
-185,Water,2,1,0,250ml
-186,Water,0|1|8|3|6|5|7|4|9|10,1,0,500ml
-187,Low-Fat Laban,8,1,75,200ml
-188,Low-fat Yogurt,8,1,121,200ml
-189,Juice,1,1,60,150ml
-190,Banana,1,1,105,1 pc
-191,White Rice,10,2,258,200g
-192,Mashed Rice,1,2,174,150g
-193,Rice with carrot,10,2,274,200g
-194,Kabsa Rice,4|9,2,205,100g
-195,Kabsa Rice,2|7|8,2,307,150g
-196,Kabsa Rice,0|3|5,2,410,200g
-197,Kabsa Rice,6,2,512,250g
-198,Mandi Rice,4|9,2,220,100g
-199,Mandi Rice,0,2,275,125g
-200,Mandi Rice,2|7|8,2,330,150g
-201,Mandi Rice,0|3|5,2,440,200g
-202,Mandi Rice,6,2,550,250g
-203,Rice with vermicelli,5|10,2,720,200g
-204,Sayadiyah Rice,4|9,2,234,100g
-205,Sayadiyah Rice,2|7|8,2,351,150g
-206,Sayadiyah Rice,0|3|5,2,468,200g
-207,Sayadiyah Rice,0|3|5,2,586,250g
-208,Bukhara Rice,6,2,235,200g
-209,Pasta,10,2,387,200g
-210,Bechamel,4,2,142,100g
-211,Bechamel,0,2,284,200g
-212,Bechamel,6,2,355,250g
-213,Spaghetti,4,2,226,100g
-214,Spaghetti,0,2,452,200g
-215,Spaghetti,6,2,565,250g
-216,Spaghetti with pepper ,8,2,560,150g
-217,Spaghetti with carrot,9,2,240,100g
-218,Spaghetti with carrot,2|7,2,360,150g
-219,Spaghetti with carrot,3|5,2,480,200g
-220,Garish,4|9,2,356,100g
-221,Garish,2|7|8,2,534,150g
-222,Garish,0|3,2,712,200g
-223,Garish,6,2,890,250g
-224,Qursan ,4|9,2,276,100g
-225,Qursan ,0,2,345,125g
-226,Qursan ,2|7|8,2,414,150g
-227,Qursan ,0|3|5,2,552,200g
-228,Qursan ,6,2,690,250g
-229,Minced Meat,1,2,35,60g
-230,Lamb without a bone,2,2,156,60g
-231,Lamb without a bone,7|8,2,208,80g
-232,Lamb without a bone,3|9|10,2,260,100g
-233,Lamb with bones ,5,2,140,100g
-234,Lamb with bones ,0|4,2,210,150g
-235,Lamb with bones ,6,2,350,250g
-236,Lamb Moqalqal,5|10,2,250,100g
-237,Lamb Moqalqal(Pepper + Onion),2,2,150,60g
-238,Lamb Moqalqal(Pepper + Onion),7|8,2,200,80g
-239,Lamb Moqalqal(Pepper + Onion),3|9,2,250,100g
-240,Lamb Moqalqal(Pepper + Onion),9,2,300,120g
-241,Chicken without bone,1,2,144,60g
-242,Chicken kofta with onions and parsley ,10,2,205,100g
-243,Chicken Moqalqal(Pepper + Onion),2,2,55,60g
-244,Chicken Moqalqal(Pepper + Onion),8,2,74,80g
-245,Chicken Moqalqal(Pepper + Onion),3,2,91,100g
-246,Chicken Moqalqal,5,2,91,100g
-247,Boneless chicken scallop,0,2,98,120g
-248,Boneless chicken scallop,6,2,204,250g
-249,Chicken,3|10,2,175,100g
-250,Chicken Mandi,0|4,2,389,250g
-251,Chicken Mandi,6,2,778,500g
-252,Grill Chicken,0|4,2,225,250g
-253,Grill Chicken,6,2,450,500g
-254,Chicken Shawarma,10,2,180,100g
-255,Oven baked chicken ,2,2,105,60g
-256,Oven baked chicken ,7|8,2,140,80g
-257,Oven baked chicken ,5,2,175,100g
-258,Oven baked chicken ,9,2,210,120g
-259,Fish without bone,1,2,52,60g
-260,Fish,5|10,2,86,100g
-261,Fish + lemon,2,2,71,90g
-262,Fish + lemon,7|8,2,95,110g
-263,Fish + lemon,3|9,2,103,130g
-264,Fish + Lemon ,4|9,2,119,150
-265,Fish + Lemon ,4,2,142,180g
-266,Fish + Fries + Lemon ,0,2,236,230g
-267,Fish + Fries + Lemon ,6,2,279,280g
-268,Grilled Fish + Fries + Lemon ,6,2,250,280g
-269,Fish roll,10,2,114,100g
-270,Molokhia,2,2,31,75g
-271,Molokhia,10,2,41,100g
-272,Molokhia,0|9|4|7|5|8|1,2,63,150g
-273,Molokhia,3,2,82,200g
-274,Molokhia,6,2,102,250g
-275,Mtabal Salad,0|6,2,451,150g
-276,Mixed Salad,0|6,2,65,150g
-277,Fattoush Salad,0|6,2,118,150g
-278,Hummus Salad,0|6,2,290,150g
-279,Tabbouleh Salad,0|6,2,90,150g
-280,Green Salad,10|3|2|9,2,23,100g
-281,Green Salad,0|4|7|9,2,34,150g
-282,Bread,2|8,2,65,25g
-283,Bread,0|6,2,130,50g
-284,Fruits,0|10|9|4|5|6|3|2|8|1,2,87,150g
-285,Soup,1,2,187,150g
-286,Musaqa (eggplant + potato + Pepper),2,2,108,75g
-287,Musaqa (eggplant + potato + Pepper),0|7|5|8|9,2,216,150g
-288,Musaqa (eggplant + potato + Pepper),3,2,288,200g
-289,Musaqa (eggplant + potato + Pepper),6,2,360,250g
-290,Potato ,0,2,57,150g
-291,Potato ,6,2,115,250g
-292,Mixed vegetables (Peas + Carrot),2,2,46,75g
-293,Mixed vegetables (Peas + Carrot),9|4|7|5|8,2,92,150g
-294,Mixed vegetables (Peas + Carrot),3,2,122,200g
-295,Mixed vegetables (Peas + Carrot + Potato ),2,2,66,75g
-296,Mixed vegetables (Peas + Carrot + Potato) ,0|4|7|8|9,2,132,150g
-297,Mixed vegetables (Peas + Carrot + Potato ),3,2,176,200g
-298,Mixed vegetables(Peas + Carrot + Potato) ,6,2,220,250g
-299,Mixed vegetables (Zucchini + Bean + Peas),10,2,50,100g
-300,Mixed vegetables (Zucchini + Potato + Pumpkin ),0,2,140,150g
-301,Mixed vegetables (Zucchini + Potato + Pumpkin ),6,2,230,250g
-302,Mixed vegetables with sauce ,0,2,154,150g
-303,Mixed vegetables with sauce ,6,2,256,250g
-304,Mixed vegetables (Potato + Pumpkin),2,2,47,75g
-305,Mixed vegetables (Potato + Pumpkin),9|7|8,2,94,150g
-306,Mixed vegetables (Potato + Pumpkin),3,2,125,200g
-307,Green beans,10,2,24,100g
-308,Green beans,4|5,2,36,150g
-309,Pumpkin,2,2,65,75g
-310,Pumpkin,0|7|8|9,2,130,150g
-311,Pumpkin,3,2,173,200g
-312,Pumpkin ,6,2,216,250g
-313,Zucchini,10,2,14,100g
-314,Water,2|8,2,0,250ml
-315,Water,0|10|9|4|7|5|6|3|1,2,0,500ml
-316,Laban,0|10|5|6|1,2,64,200ml
-317,Low-Fat Laban,3,2,75,200ml
-318,Yogurt,0|6,2,112,180ml
-319,Yogurt,1|10,2,125,200ml
-320,Low-fat Yogurt,3,2,121,200ml
+ID,Food,MealType,Serving,Calories,Diet,Units
+1,Olive,0,50 ,52,0,g
+2,Mashed Rice,1|2,150,174,1,g
+3,Molokhia,1|2,75 ,31,2,g
+4,Bean + Lemon ,0,200 ,71,3,g
+5,Chinese rice with vegetables ,1,125 ,170,4,g
+6,Lamb with bones ,2,100 ,140,5,g
+7,Lamb Moqalqal,1,200 ,500,6,g
+8,Bean + Lemon + Olive oil,0,140 ,137,7,g
+9,Bean + Lemon,0,100 ,39,8,g
+10,Oven baked chicken ,2,120 ,210,9,g
+11,Minced Chicken roll,1,60 ,270,10,g
+12,Mandi Rice,1|2,250 ,550,6,g
+13,Kabli Rice,1,125 ,286,4|9,g
+14,Kabli Rice,1,150 ,343,2|7|8,g
+15,Kabli Rice,1,200 ,457,0|3|5,g
+16,Kabli Rice,1,250 ,572,6,g
+17,Beans Rice,1,200 ,328,10,g
+18,Rice with vermicelli,1,125 ,450,4|9,g
+19,Rice with vermicelli,1,150 ,540,2|7|8,g
+20,Rice with vermicelli,1|2,200 ,720,0|3|5|10,g
+21,Rice with vermicelli,1,250 ,900,6,g
+22,Biryani Rice,1,150 ,216,2|7|8,g
+23,Chinese Rice with vegetables ,1,200 ,272,0,g
+24,Chinese Rice with vegetables ,1,250 ,340,6,g
+25,Sayadiyah Rice,2,100 ,234,4|9,g
+26,Sayadiyah Rice,1,125 ,293,4|9,g
+27,Sayadiyah Rice,1|2,150 ,351,2|7|8,g
+28,Sayadiyah Rice,1|2,200 ,468,0|3|5,g
+29,Sayadiyah Rice,1|2,250 ,586,0|3|5|6,g
+30,Bukhari Rice,1,125 ,147,4|10,g
+31,Bukhari Rice,1,150 ,176,2|7|8,g
+32,Bukhari Rice,1|2,200 ,235,0|3|5|6|10,g
+33,Bukhari Rice,1,250 ,294,6,g
+34,Garish,2,100 ,356,4|9,g
+35,Garish,2,150 ,534,2|7|8,g
+36,Garish,1|2,200 ,712,0|3|5,g
+37,Garish,2,250 ,890,6,g
+38,Qursan ,2,100 ,276,4|9,g
+39,Qursan ,1,125 ,345,9,g
+40,Qursan ,1|2,150 ,414,2|7|8,g
+41,Qursan ,1|2,200 ,552,0|3|5,g
+42,Qursan ,2,250 ,690,6,g
+43,Meat with carrot,1,60 ,60,10,g
+44,Meat kofta,1,60 ,73,10,g
+45,Minced Meat roll ,1|2,60 ,35,10|1,g
+46,Lamb without a bone,1|2,60 ,156,2,g
+47,Lamb without a bone,1|2,80 ,208,7|8,g
+48,Lamb without a bone,1|2,100 ,260,0|3|5|4|9|10,g
+49,Lamb without a bone,1,200 ,520,6,g
+50,Biryani Rice,1,200 ,288,0|3|5,g
+51,Lamb with bones ,1|2,150 ,210,0|4,g
+52,Lamb with bones ,1|2,250 ,350,6,g
+53,Lamb Moqalqal,1|2,100 ,250,0|5|10,g
+54,Biryani Rice,1,250 ,360,6,g
+55,Chicken without bone,1|2,60 ,144,1,g
+56,Chicken with carrot,1,60 ,400,10,g
+57,Chicken kofta,1,100 ,205,5,g
+58,Chicken kofta with onions and parsley ,1,60 ,123,2,g
+59,Chicken kofta with onions and parsley ,1,80 ,164,7|8,g
+60,Chicken kofta with onions and parsley ,1|2,100 ,205,3|10,g
+61,Chicken kofta with onions and parsley ,1,120 ,246,9,g
+62,Chicken roll,1,60 ,159,2,g
+63,Chicken roll,1,80 ,212,7|8,g
+64,Chicken roll,1,100 ,265,3|5,g
+65,Chicken roll,1,120 ,318,9,g
+66,Mandi Rice,1|2,200 ,440,0|3|5,g
+67,Boneless chicken scallop,1|2,120 ,98,0,g
+68,Boneless chicken scallop,1|2,250 ,204,6,g
+69,Oven baked chicken ,2,60 ,105,2,g
+70,Oven baked chicken ,2,80 ,140,7|8,g
+71,Oven baked chicken ,2,100 ,175,5,g
+72,Mandi Rice,1|2,150 ,330,2|7|8,g
+73,Oven baked chicken ,1,250 ,438,0|4,g
+74,Oven baked chicken ,1,500 ,876,6,g
+75,Fish without bone,1|2,60 ,52,1,g
+76,Fish,1|2,100 ,86,5|10,g
+77,Fish + lemon,2,90 ,71,2,g
+78,Fish + lemon,2,110 ,95,7|8,g
+79,Fish + lemon,2,130 ,103,3|9,g
+80,Fish + lemon,2,150 ,119,4|9,g
+81,Fish + lemon,1|2,180 ,142,4,g
+82,Fish kofta,1,60 ,20,10,g
+83,Fish kofta + lemon,1,90 ,33,2,g
+84,Fish kofta + lemon,1,110 ,39,7|8,g
+85,Fish kofta + lemon,1,130 ,46,3|9,g
+86,Fish + Fries + Lemon ,1|2,230 ,236,0,g
+87,Fish + Fries + Lemon ,1|2,280 ,279,6,g
+88,Rice with carrot,1|2,200,274,10,g
+89,Molokhia,2,100 ,41,10,g
+90,Molokhia,1|2,150 ,63,0|1|8|5|7|4|9,g
+91,Molokhia,1|2,200 ,82,3,g
+92,Molokhia,1|2,250 ,102,6,g
+93,Legume Salad,1,150 ,119,0|6,g
+94,Fattoush Salad,1|2,150 ,118,0|6,g
+95,Greek Salad,1,150 ,106,0|6,g
+96,Hummus Salad,1|2,150 ,290,0|6,g
+97,Tabbouleh Salad,1|2,150 ,90,0|6,g
+98,Green Salad,0|1|2,100 ,23,7|8|2|3|5|9|10,g
+99,Green Salad,1|2,150 ,34,0|6|7|4|9,g
+100,Bread,1|2,25 ,65,2|8,g
+101,Bread,0|1|2,50 ,130,0|6|2|5|8,g
+102,Bread,0|1,100 ,260,6|7,g
+103,Toasts,0|1,50 ,130,1|2|4|9,g
+104,Fruits,1|2|3,150 ,87,0|1|2|3|4|5|6|7|8|9|10,g
+105,Soup,1|2,150 ,187,1,g
+106,"Lesan Asfour Soup
+ + Meat",1,170 ,233,0|6,g
+107,"Lesan Asfour Soup
+ + Chicken ",1,170 ,225,0|6,g
+108,Adas soup + Meat ,1,170 ,219,0|6,g
+109,Creamy chicken soup + chicken ,1,170 ,234,0|6,g
+110,Vermicelli soup + Meat,1,170 ,148,0|6,g
+111,Quaker soup + chicken ,1,170 ,561,0|6,g
+112,Shish Tawook,1,60 ,126,2,g
+113,Shish Tawook,1,80 ,168,7|8,g
+114,Shish Tawook,1,100 ,210,3|5,g
+115,Shish Tawook,1,120 ,252,4|9,g
+116,Shish Tawook with mixed pepper,1,60 ,150,10,g
+117,Shish Tawook with mixed pepper,1,120 ,276,0|6,g
+118,Musaqa (eggplant + potato + Pepper),1|2,75 ,108,2,g
+119,Musaqa (eggplant + potato + Pepper),1|2,150 ,216,0|8|5|7|4|9,g
+120,Musaqa (eggplant + potato + Pepper),1|2,200 ,288,3,g
+121,Musaqa (eggplant + potato + Pepper),1|2,250 ,360,6,g
+122,Marq Zucchini,1,150 ,22,5,g
+123,Potato ,1,75 ,57,2,g
+124,Potato ,1|2,150 ,115,0|8|7|9,g
+125,Potato ,1,200 ,152,3,g
+126,Potato ,2,250 ,263,6,g
+127,Mixed vegetables (Peas + Carrot),1|2,75 ,46,2,g
+128,Mixed vegetables (Peas + Carrot),1|2,150 ,92,8|5|7|9|4,g
+129,Mixed vegetables (Peas + Carrot),1|2,200 ,122,3,g
+130,Mixed vegetables (Peas + Carrot + Potato) ,2,75 ,66,2,g
+131,Mixed vegetables (Peas + Carrot + Potato) ,1|2,150 ,132,0|4|7|8|9,g
+132,Mixed vegetables (Peas + Carrot + Potato) ,2,200 ,176,3,g
+133,Mixed vegetables(Peas + Carrot + Potato) ,1|2,250 ,220,6,g
+134,Mixed vegetables (Peas + Carrot + Pumpkin),1,75 ,60,2,g
+135,Mixed vegetables (Peas + Carrot + Pumpkin),1,150 ,120,8|7|9,g
+136,Mixed vegetables (Peas + Carrot + Pumpkin),1,200 ,160,3,g
+137,Mixed vegetables (Zucchini + Carrot + Pepper ),1,150 ,54,5,g
+138,Mixed vegetables (Zucchini + Bean + Peas),1|2,100 ,50,10,g
+139,Mixed vegetables (Peas + Carrot + Bean),1,150 ,60,5,g
+140,Mixed vegetables (Potato + Pumpkin),1|2,75 ,47,2,g
+141,Mixed vegetables (Potato + Pumpkin),1|2,150 ,94,0|4|7|8|9,g
+142,Mixed vegetables (Potato + Pumpkin),2,200 ,125,3,g
+143,Mixed vegetables (Potato + Pumpkin),1,250 ,156,6,g
+144,Mixed vegetables with sauce ,1|2,150 ,154,0|4,g
+145,Mixed vegetables with sauce ,1|2,250 ,256,6,g
+146,Green beans,1,75 ,18,2,g
+147,Green beans,1|2,100 ,24,10,g
+148,Green beans,1|2,150 ,36,0|8|5|7|4|9,g
+149,Green beans,1,200 ,48,3,g
+150,Green beans,1,250 ,60,6,g
+151,Zucchini,1|2,100 ,14,10,g
+152,Kabsa Rice,2,100 ,205,4|9,g
+153,Kabsa Rice,2,150 ,307,2|7|8,g
+154,Kabsa Rice,2,200 ,410,0|3|5,g
+155,Kabsa Rice,2,250 ,512,6,g
+156,Pasta,2,200 ,387,10,g
+157,Bechamel,2,100 ,142,4,g
+158,Bechamel,2,200 ,284,0,g
+159,Bechamel,2,250 ,355,6,g
+160,Spaghetti,2,100 ,226,4,g
+161,Spaghetti,2,200 ,452,0,g
+162,Spaghetti,2,250 ,565,6,g
+163,Spaghetti with pepper ,2,150 ,560,8,g
+164,Spaghetti with carrot,2,100 ,240,9,g
+165,Spaghetti with carrot,2,150 ,360,2|7,g
+166,Spaghetti with carrot,2,200 ,480,3|5,g
+167,Lamb Moqalqal(Pepper + Onion),2,60 ,150,2,g
+168,Lamb Moqalqal(Pepper + Onion),2,80 ,200,7|8,g
+169,Lamb Moqalqal(Pepper + Onion),2,100 ,250,3|9,g
+170,Lamb Moqalqal(Pepper + Onion),2,120 ,300,9,g
+171,Chicken Moqalqal(Pepper + Onion),2,60 ,55,2,g
+172,Chicken Moqalqal(Pepper + Onion),2,80 ,74,8,g
+173,Chicken Moqalqal(Pepper + Onion),2,100 ,91,3,g
+174,Chicken Moqalqal,2,100 ,91,5,g
+175,Chicken,2,100 ,175,3|10,g
+176,Chicken Mandi,2,250 ,389,0|4,g
+177,Chicken Mandi,2,500 ,778,6,g
+178,Grill Chicken,2,250 ,225,0|4,g
+179,Grill Chicken,2,500 ,450,6,g
+180,Chicken Shawarma,2,100 ,180,10,g
+181,Grilled Fish + Fries + Lemon ,2,280 ,250,6,g
+182,Fish roll,2,100 ,114,10,g
+183,Mtabal Salad,2,150 ,451,0|6,g
+184,Mixed Salad,2,150 ,65,0|6,g
+185,Mixed vegetables (Zucchini + Potato + Pumpkin ),2,150 ,140,0,g
+186,Mixed vegetables (Zucchini + Potato + Pumpkin ),2,250 ,230,6,g
+187,Green beans,2,100 ,24,10,g
+188,Pumpkin,2,75 ,65,2,g
+189,Pumpkin,2,150 ,130,0|7|8|9,g
+190,Pumpkin,2,200 ,173,3,g
+191,Pumpkin ,2,250 ,216,6,g
+192,Laban,2,200 ,64,0|10|5|6|1,ml
+193,Yogurt,2,180 ,112,0|6,ml
+194,Yogurt,2,200 ,125,1|10,ml
+195,Water,0|1|2,250 ,0,2|8,ml
+196,Water,0|1|2,500 ,0,0|1|8|3|6|5|7|4|9|10,ml
+197,Low-Fat Laban,1|2|3,200 ,75,3|8|4|9,ml
+198,Low-fat Yogurt,1|2|3,200 ,121,3|8|4|9,ml
+199,Juice,1,150 ,60,1,ml
+200,Banana,0|1,1  ,105,1,pc
+201,1 Cup Coffee/Tea,0|3,1  ,2,0|1|2|3|4|5|6|8|9|10,pc
+202,2 Cup Coffee/Tea,3,1   ,4,0|8|9|6|4|3,pcs
+203,1 Cup Tea,3,1  ,2,0|6,pc
+204,Croissant,3,50 ,203,0|10|5|6,g
+205,Cake,3,50 ,186,0|3|10|5|6,g
+206,Biscuits ,3,50 ,140,0|10|5|6,g
+207,Cheese Pizza,3,50 ,138,0|10|5|6,g
+208,Swiss Roll,3,50 ,220,0|10|5|6,g
+209,Low-Fat Milk,0|3,200 ,70,3|4|7|9|10,ml
+210,Juice ,0|3,200 ,80,4|3|7|2|1|9,ml
+211,Lemon ,3,200 ,52,5|10,ml
+212,Custard,3,50 ,47,3,g
+213,Custard,3,100 ,95,7|1|8,g
+214,Muhalbia,3,50 ,54,3,g
+215,Muhalbia,3,100 ,108,7|1|8,g
+216,Jelly,3,50 ,133,3,g
+217,Jelly,3,100 ,266,7|1|8,g
+218,Creme Caramel,3,100 ,170,8|1|7,g
+219,1 Boiled Egg,0,45 ,72,1|2|3|5|8|10,g
+220,1 Boiled Egg + 1 Triangle Cheese,0,45 ,122,4|9,g
+221,1 Boiled Egg + 1 Square Cheese,0,45 ,128,4,g
+222,1 Boiled Egg + 1 Low-Fat sliced cheese,0,45 ,124,4,g
+223,2 Boiled Egg,0,90 ,145,0|6,g
+224,2 Egg White,0,,32,7,g
+225,Egg With Onion,0,45 ,80,10,g
+226,Omelette ,0,100 ,167,0|6,g
+227,Shakshuka,0,60 ,,2|5,g
+228,Shakshuka,0,150 ,196,0|6,g
+229,Shakshouka + 1 Low-Fat sliced cheese,0,50 ,52,4,g
+230,Shakshouka + 1 Triangle Cheese,0,50 ,50,4,g
+231,Shakshouka + 1 Low-Fat sliced cheese,0,60 ,52,9,g
+232,Shakshouka + 1 Triangle Cheese,0,60 ,50,9,g
+233,2 Sliced cheese ,0,2   ,120,0|6,pcs
+234,1 Low-Fat sliced cheese,0,1  ,52,2|5|10,pc
+235,2 Low-Fat sliced cheese,0,2   ,104,3|8,pcs
+236,Honey,0,30 ,85,0|3|8|1|6|5|2,g
+237,Apple juice,0,200 ,98,5|10,ml
+238,Brown Bread,0,50 ,130,4|9|10,g
+239,Brown Bread,0,100 ,260,0|6|3,g
+240,3 Toasts,0,3   ,390,1,pcs
+241,Milk,0,200 ,110,0|6|5|1,ml
+242,1 Triangle Cheese,0,1   ,50,4|5|10|2,pcs
+243,2 Triangle Cheese,0,2   ,100,0|6|1|7,pcs
+244,Dates (4-5 pieces),0,50 ,120,3|6|,g
+245,Green Salad(cucumber + lettuce),0,150 ,43,4|9,g
+246,Halvah,0,30 ,154,0|6|5,g
+247,White Rice,1|2,200,258,10,g
+248,Jam,0,30 ,90,0|6|5|2|1,g
+249,Strawberry Jam,0,30 ,83,3|8,g
+250,Apricot Jam,0,30 ,72,3|8,g
+251,1 Liquid Cheese ,0,1  ,69,1,pc
+252,2 Liquid Cheese ,0,2   ,138,0,pcs
+253,1 Square Cheese,0,1  ,56,1|2,pc
+254,2 Square Cheese,0,2   ,112,0|6,pcs
+255,Humous + Olive oil,0,110 ,166,7,g
+256,Bean,0,50 ,16,10,g
+257,Bean,0,70 ,22,2,g
+258,Bean + Lemon,0,80 ,33,5,g
+259,Mandi Rice,1,125 ,275,4|9,g
+260,Bean + Lemon + 1 Square Cheese ,0,130 ,105,9,g
+261,Biryani Rice,1,125,180,9,g
+262,Mandi Rice,2,100 ,220,4|9,g
+263,Bean + Lemon + Olive oil,0,210 ,159,0|6,g
+264,Bean + Lemon + 1 Low-Fat sliced cheese ,0,200 ,123,4,g
